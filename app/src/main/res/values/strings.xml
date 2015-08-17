@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Parks Canada</string>
+    <string name="app_created_by">Created By:\nSean Feanny\nsafeanny@myseneca.ca</string>
+    <string name="app_class">MAP524\nAssignment 2</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Strings for menu items -->
+
+    <string name="action_english">English</string>
+    <string name="action_french">French</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+
+    <!-- Strings for main activity -->
+
+    <string name="welcome_string_en">Welcome to Parks Canada!</string>
+    <string name="welcome_string_fr">Welcome to Parks Canada!\n(french)</string>
+
+    <string name="welcome_app_description_en">Here you\'ll find a listing of all Canadian Parks along with the fees and sub-fees that go along with it</string>
+    <string name="welcome_app_description_fr">Here you\'ll find a listing of all Canadian Parks along with the fees and sub-fees that go along with it (french)</string>
+
+    <string name="welcome_btn_search_en">Search Parks</string>
+    <string name="welcome_btn_search_fr">Search Parks (French)</string>
+
+    <string name="welcome_btn_view_en">View all Parks</string>
+    <string name="welcome_btn_view_fr">View all Parks (French)</string>
+
+    <!-- Strings for list all activity -->
+
+    <string name="view_all_title_en">Viewing All Parks</string>
+    <string name="view_all_title_fr">Viewing All Parks\n(French)</string>
+
+    <string name="view_all_desc_en">Click on a park name from the list to view all information about fees and sub-fees.</string>
+    <string name="view_all_desc_fr">Click on a park name from the list to view all information about fees and sub-fees. (French)</string>
+
+    <!-- Strings for search activity -->
+    <string name="search_hint_en">Enter a name to search</string>
+    <string name="search_hint_fr">Enter a name to search (French)</string>
+
+    <string name="search_btn_en">Search</string>
+    <string name="search_btn_fr">Search (French)</string>
+
+    <string name="search_title_en">Search Parks</string>
+    <string name="search_title_fr">Search Parks (French)</string>
+
+    <string name="search_description_en">Please enter the name of the park that you would like to view.\n We\'ll show you all the fees and sub-fees for that park.</string>
+    <string name="search_description_fr">Please enter the name of the park that you would like to view.\n We\'ll show you all the fees and sub-fees for that park. (French)</string>
+
+    <!-- Activity titles -->
+
+    <string name="title_activity_search_all">Parks Canada - Search</string>
+    <string name="title_activity_list_park">Parks Canada - Park Fees</string>
+    <string name="title_activity_list_fee">Parks Canada - Park Fee</string>
+    <string name="title_activity_list_all">Parks Canada - All Parks</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+    <!-- End of Strings -->
+
+</resources>

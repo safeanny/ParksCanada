@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tiobob.parkscanada.SearchAllActivity">
+
+    <item
+        android:id="@+id/action_english"
+        android:title="@string/action_english"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_french"
+        android:title="@string/action_french"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

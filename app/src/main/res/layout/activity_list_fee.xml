@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.tiobob.parkscanada.ListFeeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Park Name"
+        android:id="@+id/tv_fee_title"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Master Description"
+        android:id="@+id/tv_master_title"
+        android:gravity="center"
+        android:layout_below="@+id/tv_fee_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Fee Description"
+        android:gravity="center"
+        android:id="@+id/tv_fee_description"
+        android:layout_below="@+id/tv_master_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sub-Fee Description"
+        android:gravity="center"
+        android:id="@+id/tv_subfee_description"
+        android:layout_below="@+id/tv_fee_description"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Price (With GST)"
+        android:gravity="center"
+        android:id="@+id/tv_fee_price"
+        android:layout_below="@+id/tv_subfee_description"
+        android:layout_alignRight="@+id/tv_fee_description"
+        android:layout_alignEnd="@+id/tv_fee_description" />
+
+</RelativeLayout>
